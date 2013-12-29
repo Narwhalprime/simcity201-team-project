@@ -4,6 +4,7 @@ SimCity201 Project Team 01: Just Push It
 All sprites are the property of their respective owners.
 Thanks to the [Spriter's Resource](http://www.spriters-resource.com/) for the sprite sheets.
 Map images taken from [the map of Disneyland](http://disney.wikia.com/wiki/File:Disneyland_map_2011.jpg).
+License file: LICENSE.txt in the root
 
 ##Team Members
 Douglass Chen (Team Lead) <br>
@@ -123,7 +124,7 @@ Kelsey Rose <br>
 + Locate the SimCityGui.java file in the simcity.gui package, and execute it as a Java Application in Eclipse by right-clicking the file and selecting Run As > Java Application.
 
 ###How to use configuration file
-// TODO: Configuration file system has been revamped to use a main configuration file and several properties files. Each properties-file contains information about one person except any housing-related properties, and the main configuration file is responsible for assigning people to their homes and who owns what housings.
++ Configuration file system has been revamped to use a main configuration file and several properties files. Each properties-file contains information about one person except any housing-related properties, and the main configuration file is responsible for assigning people to their homes and who owns what housings.
 
 ###Scenarios
 + Important: The basic time unit of the city is a "tick", or 1/8 of a second. In this version the day length is specified to at least 1200 ticks. Thus, if the simulation ever seems frozen, wait until the day ends. By then the people should be sleeping in their houses. The current # of ticks passed in the day should be displayed in console.
